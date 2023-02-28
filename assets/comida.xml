@@ -1,0 +1,38 @@
+<breakfast_menu>
+    <food>
+        <name>Belgian Waffles</name>
+        <image>https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2020_belgian-style-waffles_16700_760x580.jpg?ext=.jpg</image>
+        <price>$5.95</price>
+        <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+        <calories>650</calories>
+    </food>
+    <food>
+        <name>Strawberry Belgian Waffles</name>
+        <image>https://amandacooksandstyles.com/wp-content/uploads/2020/05/20190616_081911.jpg</image>
+        <price>$7.95</price>
+        <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <name>Berry-Berry Belgian Waffles</name>
+        <image>https://i0.wp.com/happylifeblogspot.com/wp-content/uploads/2017/05/img_4447.jpg?ssl=1</image>
+        <price>$8.95</price>
+        <description>Light Belgian waffles covered with an assortment of fresh berries and whipped
+            cream</description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <name>French Toast</name>
+        <image>https://www.allrecipes.com/thmb/WfZS25W9TDdRHXuhVjM1-youoDQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7016-french-toast-mfs-011-a5b6be73395843f49b5f80a4e0b96134.jpg</image>
+        <price>$4.50</price>
+        <description>Thick slices made from our homemade sourdough bread</description>
+        <calories>600</calories>
+    </food>
+    <food>
+        <name>Homestyle Breakfast</name>
+        <image>https://www.jimsrestaurants.com/web/sites/default/files/styles/featured_menu_item/public/menu-item-photo/2016-10/Eggs-Benedict.jpg?itok=iCwmbocH</image>
+        <price>$6.95</price>
+        <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+        <calories>950</calories>
+    </food>
+</breakfast_menu>
