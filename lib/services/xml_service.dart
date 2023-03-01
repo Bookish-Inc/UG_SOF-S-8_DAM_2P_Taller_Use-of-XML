@@ -24,7 +24,7 @@ class XmlService {
   }
 
   Future<List<Planta>> getPlantsFromXML() async {
-    final String xmlString = await rootBundle.loadString('assets/Planta.xml');
+    final String xmlString = await rootBundle.loadString('assets/planta.xml');
     final document = XmlDocument.parse(xmlString);
     final items = document.findAllElements('PLANT');
 
