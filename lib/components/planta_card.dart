@@ -28,7 +28,7 @@ class PlantCard extends StatelessWidget {
               return ListTile(
                 title: Text(plant!.common),
                 subtitle: Text('${plant.botanical} - Zone ${plant.zone}'),
-                trailing: Text('\$${plant.price.toStringAsFixed(2)}'),
+                trailing: Text('\$${plant.price}'),
               );
             },
           ),

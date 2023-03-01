@@ -34,7 +34,7 @@ class XmlService {
         botanical: node.findElements('BOTANICAL').single.text,
         zone: node.findElements('ZONE').single.text,
         light: node.findElements('LIGHT').single.text,
-        price: double.parse(node.findElements('PRICE').single.text),
+        price: node.findElements('PRICE').single.text,
         availability: node.findElements('AVAILABILITY').single.text,
         image: node.findElements('IMAGE').single.text,
       );
