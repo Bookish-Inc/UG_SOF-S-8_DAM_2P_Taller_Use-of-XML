@@ -1,7 +1,7 @@
 class Planta {
   final String common;
   final String botanical;
-  final int zone;
+  final String zone;
   final String light;
   final double price;
   final String availability;
