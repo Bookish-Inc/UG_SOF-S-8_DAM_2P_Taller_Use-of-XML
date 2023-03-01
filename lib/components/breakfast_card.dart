@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'models/comida.dart';
+import '../models/comida.dart';
 
 class BreakfastMenuCard extends StatelessWidget {
   final List<Food>? foods;
@@ -27,7 +27,8 @@ class BreakfastMenuCard extends StatelessWidget {
               final food = foods?[index];
               return ListTile(
                 title: Text(food!.name),
-                subtitle: Text('${food.description} - ${food.calories} calories'),
+                subtitle:
+                    Text('${food.description} - ${food.calories} calories'),
                 trailing: Text(food.price),
               );
             },

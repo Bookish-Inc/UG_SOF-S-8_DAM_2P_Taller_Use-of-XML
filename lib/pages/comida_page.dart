@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import '../models/comida.dart';
 import '../services/xml_service.dart';
 
-class HomePage extends StatefulWidget {
+class ComidaPage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _ComidaPageState createState() => _ComidaPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ComidaPageState extends State<ComidaPage> {
   late List<Food> _foods;
 
   @override
@@ -34,23 +34,29 @@ class _HomePageState extends State<HomePage> {
     } else {
       return Scaffold(
         appBar: AppBar(
-          title: Text('XML ListView Demo'),
+          title: Text('XML Comida'),
         ),
         body: ListView.builder(
           itemCount: _foods.length,
           itemBuilder: (BuildContext context, int index) {
             final Food food = _foods[index];
             return Card(
-              child: Column(
+              child: Row(
                 children: <Widget>[
-                  Image.network(
-                    food.image,
-                    fit: BoxFit.fitWidth,
+                  Flexible(
+                    flex: 1,
+                    child: Image.network(
+                      food.image,
+                      fit: BoxFit.fitWidth,
+                    ),
                   ),
-                  ListTile(
-                    title: Text(food.name),
-                    subtitle: Text(food.description),
-                    trailing: Text(food.price),
+                  Flexible(
+                    flex: 2,
+                    child: ListTile(
+                      title: Text(food.name),
+                      subtitle: Text(food.description),
+                      trailing: Text(food.price),
+                    ),
                   ),
                 ],
               ),
