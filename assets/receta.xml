@@ -3,7 +3,7 @@
    <receta>
       <tipo definicion="postre" />
       <dificultad>Fácil</dificultad>
-	  <imagen>https://www.lavanguardia.com/files/image_948_465/files/fp/uploads/2022/02/21/62136358c6dee.r_d.1000-668-4740.jpeg</imagen>
+	  <imagen>https://i.blogs.es/948245/mousse_yogur/1366_2000.jpg</imagen>
       <nombre>Tarta de chocolate</nombre>
       <ingredientes>
          <ingrediente nombre="Cola-Cao" cantidad="250 gramos" />
@@ -27,7 +27,7 @@
    <receta>
       <tipo definicion="postre" />
       <dificultad>Media</dificultad>
-	  <imagen>https://recetasdesopaipillas.com/wp-content/uploads/2021/08/Receta-de-espuma-de-limon-o-mousse-de-limon.jpg</imagen>
+	  <imagen>https://i.blogs.es/5c1523/1366_2000-4-/1366_2000.jpg</imagen>
       <nombre>Tiramisú</nombre>
       <ingredientes>
          <ingrediente nombre="cobertura Valor" cantidad="100 gramos" />
