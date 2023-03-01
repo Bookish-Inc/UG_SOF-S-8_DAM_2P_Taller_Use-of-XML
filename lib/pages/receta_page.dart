@@ -28,11 +28,16 @@ class _RecetaPageState extends State<RecetaPage> {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: _recetas.length,
-      itemBuilder: (BuildContext context, int index) {
-        return RecetaCard(receta: _recetas[index]);
-      },
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('XML Receta'),
+      ),
+      body: ListView.builder(
+        itemCount: _recetas.length,
+        itemBuilder: (BuildContext context, int index) {
+          return RecetaCard(receta: _recetas[index]);
+        },
+      ),
     );
   }
 }
