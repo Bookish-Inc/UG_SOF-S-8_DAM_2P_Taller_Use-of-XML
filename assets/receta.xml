@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <recetas>
    <receta>
       <tipo definicion="postre" />
       <dificultad>Fácil</dificultad>
+<<<<<<< HEAD
 	  <imagen>https://i.blogs.es/948245/mousse_yogur/1366_2000.jpg</imagen>
+=======
+	  <imagen>https://static1.abc.es/media/bienestar/2020/10/30/muffins-cacao-chef-bosquet-ok-ksxB--620x349@abc.jpg</imagen>
+>>>>>>> f630760ad26285cde13c4b9a2d0032fd1f97a7e7
       <nombre>Tarta de chocolate</nombre>
       <ingredientes>
          <ingrediente nombre="Cola-Cao" cantidad="250 gramos" />
@@ -27,7 +30,11 @@
    <receta>
       <tipo definicion="postre" />
       <dificultad>Media</dificultad>
+<<<<<<< HEAD
 	  <imagen>https://i.blogs.es/5c1523/1366_2000-4-/1366_2000.jpg</imagen>
+=======
+	  <imagen>https://aprende.com/wp-content/uploads/2020/10/cupcakes-de-chocolate.jpg</imagen>
+>>>>>>> f630760ad26285cde13c4b9a2d0032fd1f97a7e7
       <nombre>Tiramisú</nombre>
       <ingredientes>
          <ingrediente nombre="cobertura Valor" cantidad="100 gramos" />
