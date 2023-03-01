@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/comida_page.dart';
 import 'pages/planta_page.dart';
+import 'pages/receta_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,6 +23,10 @@ class MyApp extends StatelessWidget {
                         onPressed: () => _navigateToPlantaPage(context),
                         child: const Text('Plant'),
                       ),
+                      ElevatedButton(
+                        onPressed: () => _navigateToRecetaPage(context),
+                        child: const Text('Receta'),
+                      ),
                     ],
                   ),
                 )));
@@ -38,6 +43,13 @@ class MyApp extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => PlantaPage()),
+    );
+  }
+
+  void _navigateToRecetaPage(BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => RecetaPage()),
     );
   }
 }
